@@ -1,0 +1,86 @@
+@import url(main.css);
+@import url(navbar.css);
+@import url(responsive.css);
+@import url(sidebar.css);
+
+.container.active {
+  background-color: #fff;
+  color: #000;
+}
+
+/* navbar light color css start*/
+.navbar.active {
+  background-color: #fff;
+}
+
+.menu-list-item a.active {
+  color: #000;
+}
+
+.menu-list-item a:hover.active{
+  color: rgb(255, 70, 70);
+}
+
+.dropbtn.active {
+  background-color: #fff;
+  color: #000;
+}
+
+.dropdown-content.active {
+  background-color: #fff;
+}
+
+.dropdown-content a.active {
+  color: #000;
+}
+/* navbar light color css end*/
+
+/* sidebar light color css start */
+.sidebar.active {
+  background-color: #fff;
+}
+
+.sidebar i.active {
+  color: #000;
+}
+
+.dropsearch-btn.active {
+  background-color: #fff;
+}
+
+.dropdownSearch-content.active {
+  background-color: #fff;
+  border: 1px solid #fff;
+}
+
+.dropdownSearch-content a.active {
+  color: #000;
+}
+/* sidebar light color css end */
+
+/* movie-list-filter  start*/
+.movie-list-filter select.active {
+  background-color: #fff;
+  color: #000;
+}
+/* movie-list-filter  end*/
+
+.toggle.active {
+  background-color: #000;
+}
+.toggle-ball.active {
+  background-color: #fff;
+  transform: translateX(-19px);
+}
+
+.movie-item-img.active {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.movie-item-title.active {
+  background-color: rgba(40, 40, 40, 0);
+}
+
+.movie-item-buttons.active {
+  background-color: rgba(40, 40, 40, 0);
+}

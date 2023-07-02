@@ -1,0 +1,26 @@
+@import url(main.css);
+@import url(navbar.css);
+@import url(sidebar.css);
+@import url(lightmod.css);
+
+@media (max-width:800px){
+    .menu-container{
+        display: none;
+    }
+
+    .featured-content{
+        height: 50vh;
+    }
+
+    .featured-title{
+        width: 200px;
+    }
+    .featured-desc{
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-line-clamp: 5;
+        -webkit-box-orient: vertical;
+        max-width: 200px;
+        padding: 0;
+    }
+}
